@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+
+#block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  transform: translateY(100px);
+    gap: 5px;
+}
+
+canvas {
+            border: 1px solid #000; 
+        }
+
+
+
+input {
+  height: 50px;
+  width: 75px;
+  transform: translateY(-280px) translateX(275px);
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+<div id="block" style="width: 500px; transform:translateX(350px) translateY(100px) ;"></div>
+
+<h1 style="transform: translateY(-250px) translateX(100px); width: 10px; height:10px; font-family: cursive;"> Color: </h1>
+
+
+<input type="color" id="colorPicker" value="#ff0000">
+
+<h1 style="width: 10px; height: 10px; transform: translateY(-250px) translateX(100px); font-family: cursive;"> Clear: </h1>
+
+<button id="clearButton" style="height: 50px; width: 75px; transform: translateY(-280px) translateX(275px);"></button>
+
+
+<script src="index.js.js"></script>
+
+</body>
